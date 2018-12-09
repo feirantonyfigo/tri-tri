@@ -1,0 +1,6 @@
+framework module Pods_tri_triUITests {
+  umbrella header "Pods-tri-triUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

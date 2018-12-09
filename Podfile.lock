@@ -1,0 +1,26 @@
+PODS:
+  - EggRating (0.1.2):
+    - RateView
+  - lottie-ios (1.5.1)
+  - Material (2.6.3):
+    - Material/Core (= 2.6.3)
+  - Material/Core (2.6.3)
+  - RateView (1.2)
+  - WechatOpenSDK (1.7.7)
+
+DEPENDENCIES:
+  - EggRating
+  - lottie-ios
+  - Material (~> 2.0)
+  - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  EggRating: 633703d4be5c9938bfee58208966d75995f2cc21
+  lottie-ios: f680a7c4cb7a567ecf258fde0f967913aff111b8
+  Material: af607a7ec0e9978ef85cf189a3d8ceeeb650400f
+  RateView: d4d12e9bb76dc23a77a56f4e5c5fb530a3f3f998
+  WechatOpenSDK: cbd332148eb792d444ed4eec94f421d98f2046ee
+
+PODFILE CHECKSUM: 824444c82762e056abdbb47d65215620baf49540
+
+COCOAPODS: 1.2.1

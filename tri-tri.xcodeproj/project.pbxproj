@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B30D3C3C9B83F7F1855572 /* Pods_tri_tri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71EE653BEA0021E2F147D2C3 /* Pods_tri_tri.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		042B79691F0E5EC700F3E81D /* purification.wav in Resources */ = {isa = PBXBuildFile; fileRef = 042B79681F0E5EC700F3E81D /* purification.wav */; };
+		042D870B1ED8707D007A329C /* LottieTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D870A1ED8707D007A329C /* LottieTestViewController.swift */; };
+		042F04A11F132BA6005DD0EC /* holy_nova.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042F04A01F132BA6005DD0EC /* holy_nova.mp3 */; };
+		0453BA7F1F0A255300E2D724 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453BA7E1F0A255300E2D724 /* TutorialViewController.swift */; };
+		04DFBD621F148D4700266144 /* resurrectCountDownCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFBD611F148D4700266144 /* resurrectCountDownCircle.swift */; };
+		04E48D1F1EC0704000823F45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D1E1EC0704000823F45 /* AppDelegate.swift */; };
+		04E48D211EC0704000823F45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D201EC0704000823F45 /* ViewController.swift */; };
+		04E48D291EC0704000823F45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E48D271EC0704000823F45 /* LaunchScreen.storyboard */; };
+		04E48D341EC0704000823F45 /* tri_triTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D331EC0704000823F45 /* tri_triTests.swift */; };
+		04E48D3F1EC0704000823F45 /* tri_triUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D3E1EC0704000823F45 /* tri_triUITests.swift */; };
+		04E48D4F1EC075FA00823F45 /* 540654.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04E48D4E1EC075FA00823F45 /* 540654.jpg */; };
+		5608C9C01F199C070057A997 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5608C9BF1F199C070057A997 /* GameKit.framework */; };
+		5608C9C21F199D1C0057A997 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5608C9C11F199D1C0057A997 /* StoreKit.framework */; };
+		5620A38A1ECAB89F0035E099 /* background_music_tony.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5620A3891ECAB8930035E099 /* background_music_tony.m4a */; };
+		563230E81EC8A9F600EA49D9 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563230E71EC8A9F600EA49D9 /* GameOverViewController.swift */; };
+		563E7F5E1ED2EE50008F33C1 /* game over.wav in Resources */ = {isa = PBXBuildFile; fileRef = 563E7F5D1ED2EE50008F33C1 /* game over.wav */; };
+		563E7F601ED2EE5A008F33C1 /* not_fit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 563E7F5F1ED2EE5A008F33C1 /* not_fit.wav */; };
+		563E7F621ED47352008F33C1 /* 1_time_erase.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 563E7F611ED47352008F33C1 /* 1_time_erase.mp3 */; };
+		563E7F641ED474DA008F33C1 /* 3_times_erase.wav in Resources */ = {isa = PBXBuildFile; fileRef = 563E7F631ED474DA008F33C1 /* 3_times_erase.wav */; };
+		563E7F661ED47D5A008F33C1 /* ThemeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E7F651ED47D5A008F33C1 /* ThemeMenuViewController.swift */; };
+		5644A5F31EC428FC000066D6 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5644A5F21EC428FC000066D6 /* Base.lproj */; };
+		5644A5F61EC42905000066D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5644A5F41EC42905000066D6 /* Main.storyboard */; };
+		564542CF1EC9591A00BFBD0C /* anim.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 564542CE1EC958AA00BFBD0C /* anim.mp4 */; };
+		564542D11EC95C2300BFBD0C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564542D01EC95C2300BFBD0C /* MenuViewController.swift */; };
+		564542D31EC9A17100BFBD0C /* Fit_In.aif in Resources */ = {isa = PBXBuildFile; fileRef = 564542D21EC9A0E900BFBD0C /* Fit_In.aif */; };
+		5652411A1F51713200B53AD9 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565241191F51713200B53AD9 /* FeedbackViewController.swift */; };
+		5665D8FB1F1244E7006853BF /* Explosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665D8FA1F1244E7006853BF /* Explosion.swift */; };
+		5665D8FF1F12603D006853BF /* cash_register.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5665D8FE1F12603D006853BF /* cash_register.wav */; };
+		5665D9011F12630F006853BF /* add.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5665D9001F12630F006853BF /* add.wav */; };
+		5665D9031F12631E006853BF /* sub.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5665D9021F12631E006853BF /* sub.wav */; };
+		5665D9051F126394006853BF /* sub_not_allowed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5665D9041F126394006853BF /* sub_not_allowed.wav */; };
+		5668B6EA1F03CA54007BC5E3 /* star.json in Resources */ = {isa = PBXBuildFile; fileRef = 5668B6E91F03CA54007BC5E3 /* star.json */; };
+		5668B6EC1F03E093007BC5E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5668B6EB1F03E093007BC5E3 /* Assets.xcassets */; };
+		5668B6EE1F048475007BC5E3 /* DailyGiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5668B6ED1F048475007BC5E3 /* DailyGiftViewController.swift */; };
+		566A590A1EC942DD0056D665 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566A59091EC942DD0056D665 /* LaunchViewController.swift */; };
+		566ED38A1F0EFFFF006A0BBF /* doom_day_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 566ED3891F0EFFFF006A0BBF /* doom_day_sound.wav */; };
+		566ED38C1F0F0140006A0BBF /* amplifier_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 566ED38B1F0F0140006A0BBF /* amplifier_sound.wav */; };
+		566ED38E1F0F01DF006A0BBF /* trinity_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 566ED38D1F0F01DF006A0BBF /* trinity_sound.wav */; };
+		569D0F431F08F37200264D3C /* spin_new.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 569D0F421F08F37200264D3C /* spin_new.mp3 */; };
+		569D0F451F0907F700264D3C /* spin_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 569D0F441F0907F700264D3C /* spin_2.mp3 */; };
+		56A61C841EC5D30500A29B6F /* GameBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BEBEA51EC3254E008BBD04 /* GameBoardViewController.swift */; };
+		56A61C8B1EC5DA2400A29B6F /* background music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 56A61C8A1EC5DA2400A29B6F /* background music.mp3 */; };
+		56BEBEA81EC32C25008BBD04 /* UIImageTintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BEBEA71EC32C25008BBD04 /* UIImageTintExtension.swift */; };
+		56C3F4271ED276F200DE21BD /* restart_soundeffect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56C3F4261ED276F200DE21BD /* restart_soundeffect.wav */; };
+		56C3F4291ED279D200DE21BD /* erase.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56C3F4281ED279D200DE21BD /* erase.wav */; };
+		56C3F42B1ED27B1A00DE21BD /* general_button.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56C3F42A1ED27B1A00DE21BD /* general_button.wav */; };
+		56C3F42D1ED27CC400DE21BD /* opening.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56C3F42C1ED27CC400DE21BD /* opening.wav */; };
+		56C432391F105C9500D76D84 /* waveAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C432381F105C9500D76D84 /* waveAnimator.swift */; };
+		56D12A1C1F07E90100C047E1 /* clock_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 56D12A1B1F07E90100C047E1 /* clock_sound.mp3 */; };
+		56D12A1E1F07EC4E00C047E1 /* door_open_and_reming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 56D12A1D1F07EC4E00C047E1 /* door_open_and_reming.mp3 */; };
+		56D12A201F07F08200C047E1 /* spinning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 56D12A1F1F07F08200C047E1 /* spinning.mp3 */; };
+		56EBEA631F1B631500455119 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EBEA621F1B631500455119 /* UIButtonExtension.swift */; };
+		56EBEA6C1F1BA8B500455119 /* Fresca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EBEA6B1F1BA8B500455119 /* Fresca-Regular.ttf */; };
+		B7476A082D7B9720D6CAA215 /* Pods_tri_triUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FF444272BCFA86D0D6EEBF /* Pods_tri_triUITests.framework */; };
+		EA0889133B078E2736D5E47B /* Pods_tri_triTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CE8A342F12D783B129AFA0 /* Pods_tri_triTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E48D301EC0704000823F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E48D131EC0704000823F45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E48D1A1EC0704000823F45;
+			remoteInfo = "tri-tri";
+		};
+		04E48D3B1EC0704000823F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E48D131EC0704000823F45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E48D1A1EC0704000823F45;
+			remoteInfo = "tri-tri";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042B79681F0E5EC700F3E81D /* purification.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = purification.wav; sourceTree = "<group>"; };
+		042D870A1ED8707D007A329C /* LottieTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieTestViewController.swift; sourceTree = "<group>"; };
+		042F04A01F132BA6005DD0EC /* holy_nova.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = holy_nova.mp3; sourceTree = "<group>"; };
+		0453BA7E1F0A255300E2D724 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		04DFBD611F148D4700266144 /* resurrectCountDownCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resurrectCountDownCircle.swift; sourceTree = "<group>"; };
+		04E48D1B1EC0704000823F45 /* tri-tri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tri-tri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E48D1E1EC0704000823F45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E48D201EC0704000823F45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04E48D281EC0704000823F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E48D2A1EC0704000823F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E48D2F1EC0704000823F45 /* tri-triTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tri-triTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E48D331EC0704000823F45 /* tri_triTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tri_triTests.swift; sourceTree = "<group>"; };
+		04E48D351EC0704000823F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E48D3A1EC0704000823F45 /* tri-triUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tri-triUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E48D3E1EC0704000823F45 /* tri_triUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tri_triUITests.swift; sourceTree = "<group>"; };
+		04E48D401EC0704000823F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E48D4E1EC075FA00823F45 /* 540654.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 540654.jpg; path = pictures/540654.jpg; sourceTree = "<group>"; };
+		1852D7B9B7A02524B0A27FFE /* Pods-tri-triTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tri-triTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tri-triTests/Pods-tri-triTests.release.xcconfig"; sourceTree = "<group>"; };
+		5608C9BF1F199C070057A997 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		5608C9C11F199D1C0057A997 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5620A3891ECAB8930035E099 /* background_music_tony.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = background_music_tony.m4a; sourceTree = "<group>"; };
+		563230E71EC8A9F600EA49D9 /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		563E7F5D1ED2EE50008F33C1 /* game over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "game over.wav"; sourceTree = "<group>"; };
+		563E7F5F1ED2EE5A008F33C1 /* not_fit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = not_fit.wav; sourceTree = "<group>"; };
+		563E7F611ED47352008F33C1 /* 1_time_erase.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1_time_erase.mp3; sourceTree = "<group>"; };
+		563E7F631ED474DA008F33C1 /* 3_times_erase.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3_times_erase.wav; sourceTree = "<group>"; };
+		563E7F651ED47D5A008F33C1 /* ThemeMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeMenuViewController.swift; sourceTree = "<group>"; };
+		5644A5F21EC428FC000066D6 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		5644A5F51EC42905000066D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		564542CE1EC958AA00BFBD0C /* anim.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = anim.mp4; sourceTree = "<group>"; };
+		564542D01EC95C2300BFBD0C /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		564542D21EC9A0E900BFBD0C /* Fit_In.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fit_In.aif; sourceTree = "<group>"; };
+		565241191F51713200B53AD9 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		5665D8FA1F1244E7006853BF /* Explosion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Explosion.swift; sourceTree = "<group>"; };
+		5665D8FE1F12603D006853BF /* cash_register.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cash_register.wav; sourceTree = "<group>"; };
+		5665D9001F12630F006853BF /* add.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = add.wav; sourceTree = "<group>"; };
+		5665D9021F12631E006853BF /* sub.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sub.wav; sourceTree = "<group>"; };
+		5665D9041F126394006853BF /* sub_not_allowed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sub_not_allowed.wav; sourceTree = "<group>"; };
+		5668B6E91F03CA54007BC5E3 /* star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = star.json; sourceTree = "<group>"; };
+		5668B6EB1F03E093007BC5E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5668B6ED1F048475007BC5E3 /* DailyGiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyGiftViewController.swift; sourceTree = "<group>"; };
+		566A59091EC942DD0056D665 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		566ED3891F0EFFFF006A0BBF /* doom_day_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = doom_day_sound.wav; sourceTree = "<group>"; };
+		566ED38B1F0F0140006A0BBF /* amplifier_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = amplifier_sound.wav; sourceTree = "<group>"; };
+		566ED38D1F0F01DF006A0BBF /* trinity_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = trinity_sound.wav; sourceTree = "<group>"; };
+		568F356C1F1A08DA0009A46F /* tritri-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tritri-Bridging-Header.h"; sourceTree = "<group>"; };
+		569D0F421F08F37200264D3C /* spin_new.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spin_new.mp3; sourceTree = "<group>"; };
+		569D0F441F0907F700264D3C /* spin_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spin_2.mp3; sourceTree = "<group>"; };
+		56A61C8A1EC5DA2400A29B6F /* background music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "background music.mp3"; sourceTree = "<group>"; };
+		56BEBEA51EC3254E008BBD04 /* GameBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardViewController.swift; sourceTree = "<group>"; };
+		56BEBEA71EC32C25008BBD04 /* UIImageTintExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageTintExtension.swift; sourceTree = "<group>"; };
+		56C3F4261ED276F200DE21BD /* restart_soundeffect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = restart_soundeffect.wav; sourceTree = "<group>"; };
+		56C3F4281ED279D200DE21BD /* erase.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = erase.wav; sourceTree = "<group>"; };
+		56C3F42A1ED27B1A00DE21BD /* general_button.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = general_button.wav; sourceTree = "<group>"; };
+		56C3F42C1ED27CC400DE21BD /* opening.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = opening.wav; sourceTree = "<group>"; };
+		56C432381F105C9500D76D84 /* waveAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = waveAnimator.swift; sourceTree = "<group>"; };
+		56D12A1B1F07E90100C047E1 /* clock_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clock_sound.mp3; sourceTree = "<group>"; };
+		56D12A1D1F07EC4E00C047E1 /* door_open_and_reming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = door_open_and_reming.mp3; sourceTree = "<group>"; };
+		56D12A1F1F07F08200C047E1 /* spinning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spinning.mp3; sourceTree = "<group>"; };
+		56EBEA621F1B631500455119 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		56EBEA6B1F1BA8B500455119 /* Fresca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fresca-Regular.ttf"; sourceTree = "<group>"; };
+		6E3662C80E04A565E7C9DB9B /* Pods-tri-triUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tri-triUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tri-triUITests/Pods-tri-triUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71EE653BEA0021E2F147D2C3 /* Pods_tri_tri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tri_tri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CE8A342F12D783B129AFA0 /* Pods_tri_triTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tri_triTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B997E0BF00DF8C8C70C48F1 /* Pods-tri-tri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tri-tri.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tri-tri/Pods-tri-tri.debug.xcconfig"; sourceTree = "<group>"; };
+		C4D328F883E9EE5D9C7D76C0 /* Pods-tri-tri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tri-tri.release.xcconfig"; path = "Pods/Target Support Files/Pods-tri-tri/Pods-tri-tri.release.xcconfig"; sourceTree = "<group>"; };
+		D7FF444272BCFA86D0D6EEBF /* Pods_tri_triUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tri_triUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE30398A83143146D2F7714F /* Pods-tri-triUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tri-triUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tri-triUITests/Pods-tri-triUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE9E305261359B5B24D10932 /* Pods-tri-triTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tri-triTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tri-triTests/Pods-tri-triTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E48D181EC0704000823F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5608C9C21F199D1C0057A997 /* StoreKit.framework in Frameworks */,
+				00B30D3C3C9B83F7F1855572 /* Pods_tri_tri.framework in Frameworks */,
+				5608C9C01F199C070057A997 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E48D2C1EC0704000823F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0889133B078E2736D5E47B /* Pods_tri_triTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E48D371EC0704000823F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7476A082D7B9720D6CAA215 /* Pods_tri_triUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E48D121EC0704000823F45 = {
+			isa = PBXGroup;
+			children = (
+				04E48D1D1EC0704000823F45 /* tri-tri */,
+				04E48D3D1EC0704000823F45 /* tri-triUITests */,
+				04E48D1C1EC0704000823F45 /* Products */,
+				B33272D627B638C9910C63B1 /* Pods */,
+				9BC16BF4EA8777728F8FB0F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04E48D1C1EC0704000823F45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E48D1B1EC0704000823F45 /* tri-tri.app */,
+				04E48D2F1EC0704000823F45 /* tri-triTests.xctest */,
+				04E48D3A1EC0704000823F45 /* tri-triUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E48D1D1EC0704000823F45 /* tri-tri */ = {
+			isa = PBXGroup;
+			children = (
+				5668B6EB1F03E093007BC5E3 /* Assets.xcassets */,
+				56EBEA6A1F1BA85700455119 /* Custom Font */,
+				566E64D51EDADC750034B1AA /* Animation */,
+				566A590C1EC944650056D665 /* Launch Animation */,
+				56A61C851EC5D68100A29B6F /* Music */,
+				04E48D4E1EC075FA00823F45 /* 540654.jpg */,
+				04E48D1E1EC0704000823F45 /* AppDelegate.swift */,
+				04E48D201EC0704000823F45 /* ViewController.swift */,
+				564542D01EC95C2300BFBD0C /* MenuViewController.swift */,
+				56BEBEA51EC3254E008BBD04 /* GameBoardViewController.swift */,
+				563230E71EC8A9F600EA49D9 /* GameOverViewController.swift */,
+				04E48D271EC0704000823F45 /* LaunchScreen.storyboard */,
+				5644A5F41EC42905000066D6 /* Main.storyboard */,
+				0453BA7E1F0A255300E2D724 /* TutorialViewController.swift */,
+				042D870A1ED8707D007A329C /* LottieTestViewController.swift */,
+				566A59091EC942DD0056D665 /* LaunchViewController.swift */,
+				563E7F651ED47D5A008F33C1 /* ThemeMenuViewController.swift */,
+				56BEBEA71EC32C25008BBD04 /* UIImageTintExtension.swift */,
+				5668B6ED1F048475007BC5E3 /* DailyGiftViewController.swift */,
+				04E48D321EC0704000823F45 /* tri-triTests */,
+				5644A5F21EC428FC000066D6 /* Base.lproj */,
+				04E48D2A1EC0704000823F45 /* Info.plist */,
+				56C432381F105C9500D76D84 /* waveAnimator.swift */,
+				5665D8FA1F1244E7006853BF /* Explosion.swift */,
+				04DFBD611F148D4700266144 /* resurrectCountDownCircle.swift */,
+				568F356C1F1A08DA0009A46F /* tritri-Bridging-Header.h */,
+				56EBEA621F1B631500455119 /* UIButtonExtension.swift */,
+				565241191F51713200B53AD9 /* FeedbackViewController.swift */,
+			);
+			path = "tri-tri";
+			sourceTree = "<group>";
+		};
+		04E48D321EC0704000823F45 /* tri-triTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E48D331EC0704000823F45 /* tri_triTests.swift */,
+				04E48D351EC0704000823F45 /* Info.plist */,
+			);
+			path = "tri-triTests";
+			sourceTree = SOURCE_ROOT;
+		};
+		04E48D3D1EC0704000823F45 /* tri-triUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04E48D3E1EC0704000823F45 /* tri_triUITests.swift */,
+				04E48D401EC0704000823F45 /* Info.plist */,
+			);
+			path = "tri-triUITests";
+			sourceTree = "<group>";
+		};
+		566A590C1EC944650056D665 /* Launch Animation */ = {
+			isa = PBXGroup;
+			children = (
+				564542CE1EC958AA00BFBD0C /* anim.mp4 */,
+			);
+			name = "Launch Animation";
+			sourceTree = "<group>";
+		};
+		566E64D51EDADC750034B1AA /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				5668B6E91F03CA54007BC5E3 /* star.json */,
+			);
+			name = Animation;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		56A61C851EC5D68100A29B6F /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				563E7F611ED47352008F33C1 /* 1_time_erase.mp3 */,
+				563E7F631ED474DA008F33C1 /* 3_times_erase.wav */,
+				042B79681F0E5EC700F3E81D /* purification.wav */,
+				563E7F5F1ED2EE5A008F33C1 /* not_fit.wav */,
+				563E7F5D1ED2EE50008F33C1 /* game over.wav */,
+				56C3F42C1ED27CC400DE21BD /* opening.wav */,
+				56C3F42A1ED27B1A00DE21BD /* general_button.wav */,
+				042F04A01F132BA6005DD0EC /* holy_nova.mp3 */,
+				56C3F4281ED279D200DE21BD /* erase.wav */,
+				5665D9021F12631E006853BF /* sub.wav */,
+				566ED3891F0EFFFF006A0BBF /* doom_day_sound.wav */,
+				56C3F4261ED276F200DE21BD /* restart_soundeffect.wav */,
+				564542D21EC9A0E900BFBD0C /* Fit_In.aif */,
+				5620A3891ECAB8930035E099 /* background_music_tony.m4a */,
+				566ED38B1F0F0140006A0BBF /* amplifier_sound.wav */,
+				5665D9001F12630F006853BF /* add.wav */,
+				5665D8FE1F12603D006853BF /* cash_register.wav */,
+				569D0F421F08F37200264D3C /* spin_new.mp3 */,
+				5665D9041F126394006853BF /* sub_not_allowed.wav */,
+				56D12A1D1F07EC4E00C047E1 /* door_open_and_reming.mp3 */,
+				566ED38D1F0F01DF006A0BBF /* trinity_sound.wav */,
+				56A61C8A1EC5DA2400A29B6F /* background music.mp3 */,
+				569D0F441F0907F700264D3C /* spin_2.mp3 */,
+				56D12A1B1F07E90100C047E1 /* clock_sound.mp3 */,
+				56D12A1F1F07F08200C047E1 /* spinning.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		56EBEA6A1F1BA85700455119 /* Custom Font */ = {
+			isa = PBXGroup;
+			children = (
+				56EBEA6B1F1BA8B500455119 /* Fresca-Regular.ttf */,
+			);
+			name = "Custom Font";
+			sourceTree = "<group>";
+		};
+		9BC16BF4EA8777728F8FB0F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5608C9C11F199D1C0057A997 /* StoreKit.framework */,
+				5608C9BF1F199C070057A997 /* GameKit.framework */,
+				71EE653BEA0021E2F147D2C3 /* Pods_tri_tri.framework */,
+				75CE8A342F12D783B129AFA0 /* Pods_tri_triTests.framework */,
+				D7FF444272BCFA86D0D6EEBF /* Pods_tri_triUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B33272D627B638C9910C63B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B997E0BF00DF8C8C70C48F1 /* Pods-tri-tri.debug.xcconfig */,
+				C4D328F883E9EE5D9C7D76C0 /* Pods-tri-tri.release.xcconfig */,
+				DE9E305261359B5B24D10932 /* Pods-tri-triTests.debug.xcconfig */,
+				1852D7B9B7A02524B0A27FFE /* Pods-tri-triTests.release.xcconfig */,
+				6E3662C80E04A565E7C9DB9B /* Pods-tri-triUITests.debug.xcconfig */,
+				DE30398A83143146D2F7714F /* Pods-tri-triUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E48D1A1EC0704000823F45 /* tri-tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E48D431EC0704000823F45 /* Build configuration list for PBXNativeTarget "tri-tri" */;
+			buildPhases = (
+				8FF5840670CFE0677D87697C /* [CP] Check Pods Manifest.lock */,
+				04E48D171EC0704000823F45 /* Sources */,
+				04E48D181EC0704000823F45 /* Frameworks */,
+				04E48D191EC0704000823F45 /* Resources */,
+				33AA83596B9882C82082D458 /* [CP] Embed Pods Frameworks */,
+				FEEE6B6844A20A29789F89C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tri-tri";
+			productName = "tri-tri";
+			productReference = 04E48D1B1EC0704000823F45 /* tri-tri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E48D2E1EC0704000823F45 /* tri-triTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E48D461EC0704000823F45 /* Build configuration list for PBXNativeTarget "tri-triTests" */;
+			buildPhases = (
+				3ABD0D9752328286F7C82007 /* [CP] Check Pods Manifest.lock */,
+				04E48D2B1EC0704000823F45 /* Sources */,
+				04E48D2C1EC0704000823F45 /* Frameworks */,
+				04E48D2D1EC0704000823F45 /* Resources */,
+				AA2899FEFF5AE89A92EED005 /* [CP] Embed Pods Frameworks */,
+				65C27E490DC68F44C6276DEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E48D311EC0704000823F45 /* PBXTargetDependency */,
+			);
+			name = "tri-triTests";
+			productName = "tri-triTests";
+			productReference = 04E48D2F1EC0704000823F45 /* tri-triTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E48D391EC0704000823F45 /* tri-triUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E48D491EC0704000823F45 /* Build configuration list for PBXNativeTarget "tri-triUITests" */;
+			buildPhases = (
+				15B820AA53F50DD5DD609DE8 /* [CP] Check Pods Manifest.lock */,
+				04E48D361EC0704000823F45 /* Sources */,
+				04E48D371EC0704000823F45 /* Frameworks */,
+				04E48D381EC0704000823F45 /* Resources */,
+				042EA8B441E15A0D47C237BA /* [CP] Embed Pods Frameworks */,
+				EC0D47AA7E574CDFB612E794 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E48D3C1EC0704000823F45 /* PBXTargetDependency */,
+			);
+			name = "tri-triUITests";
+			productName = "tri-triUITests";
+			productReference = 04E48D3A1EC0704000823F45 /* tri-triUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E48D131EC0704000823F45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04E48D1A1EC0704000823F45 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 79J3C467UK;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					04E48D2E1EC0704000823F45 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04E48D1A1EC0704000823F45;
+					};
+					04E48D391EC0704000823F45 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04E48D1A1EC0704000823F45;
+					};
+				};
+			};
+			buildConfigurationList = 04E48D161EC0704000823F45 /* Build configuration list for PBXProject "tri-tri" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E48D121EC0704000823F45;
+			productRefGroup = 04E48D1C1EC0704000823F45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E48D1A1EC0704000823F45 /* tri-tri */,
+				04E48D2E1EC0704000823F45 /* tri-triTests */,
+				04E48D391EC0704000823F45 /* tri-triUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E48D191EC0704000823F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5620A38A1ECAB89F0035E099 /* background_music_tony.m4a in Resources */,
+				566ED38A1F0EFFFF006A0BBF /* doom_day_sound.wav in Resources */,
+				563E7F601ED2EE5A008F33C1 /* not_fit.wav in Resources */,
+				042B79691F0E5EC700F3E81D /* purification.wav in Resources */,
+				56C3F4271ED276F200DE21BD /* restart_soundeffect.wav in Resources */,
+				564542D31EC9A17100BFBD0C /* Fit_In.aif in Resources */,
+				56C3F42B1ED27B1A00DE21BD /* general_button.wav in Resources */,
+				566ED38C1F0F0140006A0BBF /* amplifier_sound.wav in Resources */,
+				56D12A1C1F07E90100C047E1 /* clock_sound.mp3 in Resources */,
+				56C3F4291ED279D200DE21BD /* erase.wav in Resources */,
+				5665D9031F12631E006853BF /* sub.wav in Resources */,
+				569D0F431F08F37200264D3C /* spin_new.mp3 in Resources */,
+				563E7F641ED474DA008F33C1 /* 3_times_erase.wav in Resources */,
+				56C3F42D1ED27CC400DE21BD /* opening.wav in Resources */,
+				564542CF1EC9591A00BFBD0C /* anim.mp4 in Resources */,
+				56D12A1E1F07EC4E00C047E1 /* door_open_and_reming.mp3 in Resources */,
+				04E48D291EC0704000823F45 /* LaunchScreen.storyboard in Resources */,
+				56D12A201F07F08200C047E1 /* spinning.mp3 in Resources */,
+				5644A5F61EC42905000066D6 /* Main.storyboard in Resources */,
+				5668B6EA1F03CA54007BC5E3 /* star.json in Resources */,
+				5665D9051F126394006853BF /* sub_not_allowed.wav in Resources */,
+				563E7F5E1ED2EE50008F33C1 /* game over.wav in Resources */,
+				5665D9011F12630F006853BF /* add.wav in Resources */,
+				04E48D4F1EC075FA00823F45 /* 540654.jpg in Resources */,
+				563E7F621ED47352008F33C1 /* 1_time_erase.mp3 in Resources */,
+				56A61C8B1EC5DA2400A29B6F /* background music.mp3 in Resources */,
+				56EBEA6C1F1BA8B500455119 /* Fresca-Regular.ttf in Resources */,
+				5644A5F31EC428FC000066D6 /* Base.lproj in Resources */,
+				042F04A11F132BA6005DD0EC /* holy_nova.mp3 in Resources */,
+				5665D8FF1F12603D006853BF /* cash_register.wav in Resources */,
+				5668B6EC1F03E093007BC5E3 /* Assets.xcassets in Resources */,
+				566ED38E1F0F01DF006A0BBF /* trinity_sound.wav in Resources */,
+				569D0F451F0907F700264D3C /* spin_2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E48D2D1EC0704000823F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E48D381EC0704000823F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		042EA8B441E15A0D47C237BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tri-triUITests/Pods-tri-triUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15B820AA53F50DD5DD609DE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33AA83596B9882C82082D458 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tri-tri/Pods-tri-tri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ABD0D9752328286F7C82007 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65C27E490DC68F44C6276DEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tri-triTests/Pods-tri-triTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF5840670CFE0677D87697C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2899FEFF5AE89A92EED005 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tri-triTests/Pods-tri-triTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC0D47AA7E574CDFB612E794 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tri-triUITests/Pods-tri-triUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEEE6B6844A20A29789F89C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tri-tri/Pods-tri-tri-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E48D171EC0704000823F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E48D211EC0704000823F45 /* ViewController.swift in Sources */,
+				5665D8FB1F1244E7006853BF /* Explosion.swift in Sources */,
+				5652411A1F51713200B53AD9 /* FeedbackViewController.swift in Sources */,
+				566A590A1EC942DD0056D665 /* LaunchViewController.swift in Sources */,
+				042D870B1ED8707D007A329C /* LottieTestViewController.swift in Sources */,
+				56A61C841EC5D30500A29B6F /* GameBoardViewController.swift in Sources */,
+				564542D11EC95C2300BFBD0C /* MenuViewController.swift in Sources */,
+				56EBEA631F1B631500455119 /* UIButtonExtension.swift in Sources */,
+				04E48D1F1EC0704000823F45 /* AppDelegate.swift in Sources */,
+				56BEBEA81EC32C25008BBD04 /* UIImageTintExtension.swift in Sources */,
+				56C432391F105C9500D76D84 /* waveAnimator.swift in Sources */,
+				563230E81EC8A9F600EA49D9 /* GameOverViewController.swift in Sources */,
+				0453BA7F1F0A255300E2D724 /* TutorialViewController.swift in Sources */,
+				04DFBD621F148D4700266144 /* resurrectCountDownCircle.swift in Sources */,
+				5668B6EE1F048475007BC5E3 /* DailyGiftViewController.swift in Sources */,
+				563E7F661ED47D5A008F33C1 /* ThemeMenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E48D2B1EC0704000823F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E48D341EC0704000823F45 /* tri_triTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E48D361EC0704000823F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E48D3F1EC0704000823F45 /* tri_triUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E48D311EC0704000823F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E48D1A1EC0704000823F45 /* tri-tri */;
+			targetProxy = 04E48D301EC0704000823F45 /* PBXContainerItemProxy */;
+		};
+		04E48D3C1EC0704000823F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E48D1A1EC0704000823F45 /* tri-tri */;
+			targetProxy = 04E48D3B1EC0704000823F45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E48D271EC0704000823F45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E48D281EC0704000823F45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5644A5F41EC42905000066D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5644A5F51EC42905000066D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E48D411EC0704000823F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E48D421EC0704000823F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E48D441EC0704000823F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B997E0BF00DF8C8C70C48F1 /* Pods-tri-tri.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79J3C467UK;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "tri-tri/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tritri.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./tri-tri/tritri-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04E48D451EC0704000823F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D328F883E9EE5D9C7D76C0 /* Pods-tri-tri.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79J3C467UK;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "tri-tri/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tritri.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./tri-tri/tritri-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04E48D471EC0704000823F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9E305261359B5B24D10932 /* Pods-tri-triTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tri-triTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HBTGames.tri-triTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tri-tri.app/tri-tri";
+			};
+			name = Debug;
+		};
+		04E48D481EC0704000823F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1852D7B9B7A02524B0A27FFE /* Pods-tri-triTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tri-triTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HBTGames.tri-triTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tri-tri.app/tri-tri";
+			};
+			name = Release;
+		};
+		04E48D4A1EC0704000823F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3662C80E04A565E7C9DB9B /* Pods-tri-triUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "tri-triUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HBTGames.tri-triUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "tri-tri";
+			};
+			name = Debug;
+		};
+		04E48D4B1EC0704000823F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE30398A83143146D2F7714F /* Pods-tri-triUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "tri-triUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HBTGames.tri-triUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "tri-tri";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E48D161EC0704000823F45 /* Build configuration list for PBXProject "tri-tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E48D411EC0704000823F45 /* Debug */,
+				04E48D421EC0704000823F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E48D431EC0704000823F45 /* Build configuration list for PBXNativeTarget "tri-tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E48D441EC0704000823F45 /* Debug */,
+				04E48D451EC0704000823F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E48D461EC0704000823F45 /* Build configuration list for PBXNativeTarget "tri-triTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E48D471EC0704000823F45 /* Debug */,
+				04E48D481EC0704000823F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E48D491EC0704000823F45 /* Build configuration list for PBXNativeTarget "tri-triUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E48D4A1EC0704000823F45 /* Debug */,
+				04E48D4B1EC0704000823F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E48D131EC0704000823F45 /* Project object */;
+}
